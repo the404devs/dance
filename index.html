@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dancing Letters Generator</title>
+    <link rel="stylesheet" type="text/css" href="https://www.the404.nl/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.the404.nl/img/favicon.ico">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a79a931136.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="header-text" onclick="location.href = 'https://the404.nl/'">THE404.NL</h1>
+        <div class="tab-wrapper">
+            <span class="tab" id="home-tab" onclick="location.href = 'https://the404.nl/'"><i class="fas fa-home"></i></span>
+        </div>
+    </div>
+    <div class="content" style="width: -webkit-fill-available;">
+        <div class="post" style="margin-top: 10px; width: -webkit-fill-available;">
+            <h2 style="font-family: 'Gilroy Bold'; color: var(--accent)">Dancing Letters Generator</h2>
+            <textarea id="input" rows="5" cols="20" style="font-size:24px"></textarea>
+            <button class="button" onclick="dance()"><span>Generate!</span></button>
+            <p>
+                <b>v0.0.1</b>
+                <br> 01/04/21
+            </p>
+        </div>
+        <div class="post" id="fun-zone" style="display:none; width: -webkit-fill-available; padding-bottom: 10px">
+            <h2 style="font-family: 'Gilroy Bold'; color: var(--accent) ; margin-bottom:0">Your dance:</h2>
+        </div>
+    </div>
+    <script src="js/dance.js"></script>
+</body>
+
+</html>
