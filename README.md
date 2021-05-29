@@ -3,6 +3,10 @@ https://dance.the404.nl
 
 dancing letter gifs, wooo
 
+### *0.0.3 (05/29/2021)*
+------------------------
+- Fixed broken CSS caused by the CSS rewrite on the main 404 site.
+
 ### *0.0.2 (01/12/2021)*
 ------------------------
 - Add a bit more words, so a user can understand what to do.
